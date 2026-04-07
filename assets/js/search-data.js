@@ -437,16 +437,36 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-ecocar-mobility-challenge",
-          title: 'EcoCAR Mobility Challenge',
-          description: "Leading the Connected and Automated Vehicle (CAV) team to integrate real-world autonomy.",
+          section: "News",},{id: "projects-automated-intersection-navigation-ain",
+          title: 'Automated Intersection Navigation (AIN)',
+          description: "Energy-optimized intersection transit utilizing V2X SPaT messaging.",
           section: "Projects",handler: () => {
-              window.location.href = "/jerrylee_portfolio/projects/ecocar/";
-            },},{id: "projects-advanced-cav-control-amp-xai",
-          title: 'Advanced CAV Control &amp;amp; XAI',
-          description: "Bridging the gap between high-performance &quot;black-box&quot; driving models and safety-critical interpretability.",
+              window.location.href = "/jerrylee_portfolio/projects/ain/";
+            },},{id: "projects-cooperative-adaptive-cruise-control",
+          title: 'Cooperative Adaptive Cruise Control',
+          description: "Longitudinal vehicle control via direct GM CAN bus integration.",
           section: "Projects",handler: () => {
-              window.location.href = "/jerrylee_portfolio/projects/research/";
+              window.location.href = "/jerrylee_portfolio/projects/cacc/";
+            },},{id: "projects-hmi-amp-driver-trust",
+          title: 'HMI &amp;amp; Driver Trust',
+          description: "The human impact of visual detail in autonomous system communication.",
+          section: "Projects",handler: () => {
+              window.location.href = "/jerrylee_portfolio/projects/hmi/";
+            },},{id: "projects-lane-keeping-system",
+          title: 'Lane Keeping System',
+          description: "Lateral control logic and trajectory tracking development.",
+          section: "Projects",handler: () => {
+              window.location.href = "/jerrylee_portfolio/projects/lka/";
+            },},{id: "projects-high-speed-path-tracking-control",
+          title: 'High-Speed Path-Tracking Control',
+          description: "Compensating for time-delayed steering system dynamics in physical vehicles.",
+          section: "Projects",handler: () => {
+              window.location.href = "/jerrylee_portfolio/projects/pathtrack/";
+            },},{id: "projects-explainable-ai-in-driving-models",
+          title: 'Explainable AI in Driving Models',
+          description: "Approximating black-box models for safety-critical interpretability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/jerrylee_portfolio/projects/xai/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
