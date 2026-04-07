@@ -30,7 +30,7 @@ I conducted a detailed study evaluating the human impact of visual detail in lan
 By comparing the visual detail levels, the data revealed critical thresholds where added UI information stopped being helpful and started causing cognitive overload, increasing the driver's reaction time to critical takeover requests.
 
 <div class="row mt-4 mb-4">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hmi_results_chart.png" title="Results Chart" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
