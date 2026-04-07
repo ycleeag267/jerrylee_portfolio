@@ -451,12 +451,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -496,6 +491,11 @@ ninja.data = [{
           description: "Leading the Connected and Automated Vehicle (CAV) team to integrate real-world autonomy.",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/ecocar/";
+            },},{id: "projects-advanced-cav-control-amp-xai",
+          title: 'Advanced CAV Control &amp;amp; XAI',
+          description: "Bridging the gap between high-performance &quot;black-box&quot; driving models and safety-critical interpretability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/research/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
