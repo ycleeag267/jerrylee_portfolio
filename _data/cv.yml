@@ -1,4 +1,3 @@
-
 - title: General Information
   type: map
   contents:
@@ -9,30 +8,26 @@
     - name: Email
       value: ycleeag@utexas.edu
     - name: LinkedIn
-      value: www.linkedin.com/in/ycleeag
+      value: linkedin.com/in/ycleeag
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Mechanical Engineering
       institution: The University of Texas at Austin
-      year: 2028
+      year: Expected May 2028
       description:
-        - Expected Graduation May 2028
-
+        - "GPA: 4.0 / 4.0"
     - title: M.S. in Mechanical Engineering
       institution: The University of Texas at Austin
-      year: 2024
+      year: Dec 2024
       description:
-        - GPA 4.0/4.0
-        - Graduated December 2024
-
+        - "GPA: 4.0 / 4.0"
     - title: B.S. in Mechanical Engineering
       institution: Yonsei University
-      year: 2023
+      year: Aug 2023
       description:
-        - GPA 3.71/4.5
-        - Graduated August 2023
+        - "GPA: 3.71 / 4.5"
 
 - title: Research Experience
   type: time_table
@@ -47,7 +42,6 @@
         - Achieved 0.623 m/s velocity RMSE over a 2-second prediction horizon.
         - Reduced unseen-scenario acceleration prediction RMSE from 20.5 m/s² to 4.06 m/s² compared to EBM baselines.
         - Developed MATLAB and Python pipelines for scenario extraction, feature engineering, training, and rollout analysis.
-
     - title: Explainable Driver Modeling and Personalization
       institution: Mobility Systems Laboratory, The University of Texas at Austin
       year: 2024 – Present
@@ -68,20 +62,18 @@
         - Led a multidisciplinary team of 8 undergraduate and graduate students developing CAV technologies on a Cadillac LYRIQ.
         - Directed development of CACC, LKA, Automated Intersection Navigation, sensor fusion, and V2X-enabled autonomy features.
         - Coordinated model-based development workflows using MATLAB/Simulink, RTMaps, dSPACE ASM, and dSPACE AUTERA.
-
     - title: Cooperative Adaptive Cruise Control (CACC)
       institution: EcoCAR
-      year: 2025
+      year: "2025"
       description:
         - Co-developed an MPC-based CACC system utilizing SAE J2735 V2V communication.
         - Integrated V2X vehicle state information into real-time control algorithms.
         - Implemented CAN-FD communication between dSPACE AUTERA and vehicle control systems.
         - Successfully deployed and validated the controller on a Cadillac LYRIQ.
         - Achieved 0.062 m steady-state spacing RMSE, 2.999 m/s³ maximum jerk, and 1.707 m/s² maximum acceleration.
-
     - title: Lane Keeping Assist (LKA)
       institution: EcoCAR
-      year: 2025
+      year: "2025"
       description:
         - Guided development of a Sliding Mode Controller using LiDAR and camera perception inputs.
         - Mentored undergraduate team members in controller design and validation.
@@ -92,7 +84,7 @@
 - title: Selected Projects
   type: time_table
   contents:
-    - title: Autonomous Vehicle Project
+    - title: Autonomous Vehicle Path Tracking
       institution: The University of Texas at Austin
       year: Jan 2024 – Dec 2024
       description:
@@ -100,8 +92,6 @@
         - Used root-locus and frequency-domain design methods to satisfy system requirements.
         - Reduced lateral tracking RMSE by 52.98% for single lane changes and 48.61% for double lane changes.
         - Achieved performance comparable to MPC with significantly lower computational cost.
-        - Published as first author in IEEJ Journal of Industry Applications.
-
     - title: Advanced Mechatronics Competition (1st Place)
       institution: Yonsei University
       year: Aug 2023 – Dec 2023
@@ -115,60 +105,35 @@
   contents:
     - title: Practical Method for High-Speed Path-Tracking Control of Vehicles with Time-Delayed Steering System Dynamics
       institution: IEEJ Journal of Industry Applications
-      year: 2025
+      year: "2025"
       description:
-        - Yu Chul Lee, Chi-Chang Huang, Umesh Malepati, Xingyu Zhou, and Junmin Wang
-
+        - "**Yu Chul Lee**, Chi-Chang Huang, Umesh Malepati, Xingyu Zhou, and Junmin Wang"
     - title: Human Impact of Visual Detail in Vehicle Lane-Keeping System Communication
       institution: IFAC Symposium on Intelligent Autonomous Vehicles
-      year: 2025
+      year: "2025"
       description:
-        - Yu Chul Lee and Junmin Wang
+        - "**Yu Chul Lee** and Junmin Wang"
 
 - title: Technical Skills
   type: nested_list
   contents:
-    - title: Controls and Vehicle Dynamics
+    - title: Controls & Vehicle Dynamics
       items:
-        - Model Predictive Control (MPC)
-        - Sliding Mode Control
-        - LQR
-        - Feedback Linearization
-
+        - Model Predictive Control (MPC), Sliding Mode Control, LQR, Feedback Linearization
     - title: Programming
       items:
-        - MATLAB
-        - Simulink
-        - Python
-        - C
-
+        - MATLAB, Simulink, Python, C
     - title: Autonomous Systems
       items:
-        - V2X Communication (SAE J2735)
-        - CAN-FD
-        - Driver Modeling
-        - Trajectory Prediction
-
-    - title: Simulation and Deployment
+        - V2X Communication (SAE J2735), CAN-FD, Driver Modeling, Trajectory Prediction
+    - title: Simulation & Deployment
       items:
-        - dSPACE AUTERA
-        - dSPACE ASM
-        - RTMaps
-        - Unreal Engine
-        - ROS
-        - CANalyzer
-        - HIL
-        - VIL
-
-    - title: Machine Learning and Data Analysis
+        - dSPACE AUTERA, dSPACE ASM, RTMaps, Unreal Engine, ROS, CANalyzer, HIL, VIL
+    - title: Machine Learning & Data
       items:
-        - Explainable Boosting Machines (EBM)
-        - SHAP
-        - Random Forests
-        - Clustering
+        - Explainable Boosting Machines (EBM), SHAP, Random Forests, Clustering
 
 - title: Certifications
   type: list
   contents:
-    - Fundamentals of Engineering (FE Mechanical), Passed 2023
-
+    - Fundamentals of Engineering (FE Mechanical) — Passed Feb 2023
