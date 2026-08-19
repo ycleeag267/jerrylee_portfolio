@@ -1,139 +1,144 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Yu Chul (Jerry) Lee
-    - name: Phone
-      value: (512) 293-5463
-    - name: Email
-      value: ycleeag@utexas.edu
-    - name: LinkedIn
-      value: linkedin.com/in/ycleeag
+cv:
+  name: Yu Chul (Jerry) Lee
+  location: Austin, Texas
+  email: ycleeag@utexas.edu
+  phone: (512) 293-5463
+  social_networks:
+    - network: LinkedIn
+      username: ycleeag
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D. in Mechanical Engineering
-      institution: The University of Texas at Austin
-      year: Expected May 2028
-      description:
-        - "GPA: 4.0 / 4.0"
-    - title: M.S. in Mechanical Engineering
-      institution: The University of Texas at Austin
-      year: Dec 2024
-      description:
-        - "GPA: 4.0 / 4.0"
-    - title: B.S. in Mechanical Engineering
-      institution: Yonsei University
-      year: Aug 2023
-      description:
-        - "GPA: 3.71 / 4.5"
+  sections:
+    Education:
+      - institution: The University of Texas at Austin
+        area: Mechanical Engineering
+        degree: PhD
+        start_date: 2025-01
+        end_date: 2028-05
+        highlights:
+          - "Expected graduation: May 2028"
 
-- title: Research Experience
-  type: time_table
-  contents:
-    - title: Graduate Research Assistant
-      institution: Mobility Systems Laboratory, The University of Texas at Austin
-      year: Jan 2025 – Present
-      description:
-        - Developed hybrid physics-informed machine learning architectures for driver behavior prediction at four-way intersections.
-        - Designed interaction-aware and driver-mode-aware Intelligent Driver Models augmented with learned latent representations.
-        - Trained and evaluated models using 163 NGSIM intersection scenarios and human-driver simulator datasets.
-        - Achieved 0.623 m/s velocity RMSE over a 2-second prediction horizon.
-        - Reduced unseen-scenario acceleration prediction RMSE from 20.5 m/s² to 4.06 m/s² compared to EBM baselines.
-        - Developed MATLAB and Python pipelines for scenario extraction, feature engineering, training, and rollout analysis.
-    - title: Explainable Driver Modeling and Personalization
-      institution: Mobility Systems Laboratory, The University of Texas at Austin
-      year: 2024 – Present
-      description:
-        - Developed interpretable driver models using SHAP-based feature selection and Explainable Boosting Machines.
-        - Engineered physically meaningful driver-behavior features from vehicle kinematics and traffic interactions.
-        - Proposed residual-learning adaptation methods for personalized driver modeling from sparse datasets.
-        - Achieved 94.4% fidelity for synthetic drivers and up to 88.5% fidelity for human-driver behavior.
-        - Preserved individual driving styles and achieved 75% driver identification accuracy on unseen data.
+      - institution: The University of Texas at Austin
+        area: Mechanical Engineering
+        degree: MS
+        start_date: 2023-08
+        end_date: 2024-12
+        highlights:
+          - "GPA: 4.0/4.0"
 
-- title: Engineering Experience
-  type: time_table
-  contents:
-    - title: Team Leader
-      institution: EcoCAR Connected and Autonomous Vehicle Team
-      year: Jan 2025 – May 2026
-      description:
-        - Led a multidisciplinary team of 8 undergraduate and graduate students developing CAV technologies on a Cadillac LYRIQ.
-        - Directed development of CACC, LKA, Automated Intersection Navigation, sensor fusion, and V2X-enabled autonomy features.
-        - Coordinated model-based development workflows using MATLAB/Simulink, RTMaps, dSPACE ASM, and dSPACE AUTERA.
-    - title: Cooperative Adaptive Cruise Control (CACC)
-      institution: EcoCAR
-      year: "2025"
-      description:
-        - Co-developed an MPC-based CACC system utilizing SAE J2735 V2V communication.
-        - Integrated V2X vehicle state information into real-time control algorithms.
-        - Implemented CAN-FD communication between dSPACE AUTERA and vehicle control systems.
-        - Successfully deployed and validated the controller on a Cadillac LYRIQ.
-        - Achieved 0.062 m steady-state spacing RMSE, 2.999 m/s³ maximum jerk, and 1.707 m/s² maximum acceleration.
-    - title: Lane Keeping Assist (LKA)
-      institution: EcoCAR
-      year: "2025"
-      description:
-        - Guided development of a Sliding Mode Controller using LiDAR and camera perception inputs.
-        - Mentored undergraduate team members in controller design and validation.
-        - Validated controller performance through HIL and vehicle testing.
-        - Achieved 0.121 m lateral tracking error and 0.35 m/s³ lateral jerk in HIL testing.
-        - Conducted vehicle-in-the-loop testing and identified sensor latency limitations.
+      - institution: Yonsei University
+        area: Mechanical Engineering
+        degree: BS
+        start_date: 2019-03
+        end_date: 2023-08
+        highlights:
+          - "GPA: 3.71/4.5"
 
-- title: Selected Projects
-  type: time_table
-  contents:
-    - title: Autonomous Vehicle Path Tracking
-      institution: The University of Texas at Austin
-      year: Jan 2024 – Dec 2024
-      description:
-        - Designed and tested a path-tracking controller capable of lane changes at 40 m/s with 0.1 m lateral error.
-        - Used root-locus and frequency-domain design methods to satisfy system requirements.
-        - Reduced lateral tracking RMSE by 52.98% for single lane changes and 48.61% for double lane changes.
-        - Achieved performance comparable to MPC with significantly lower computational cost.
-    - title: Advanced Mechatronics Competition (1st Place)
-      institution: Yonsei University
-      year: Aug 2023 – Dec 2023
-      description:
-        - Designed and manufactured an autonomous mobile robot capable of target localization and pneumatic actuation.
-        - Created 12 custom SolidWorks components under strict dimensional constraints.
-        - Tested five prototypes and achieved reliable 1.5 m projectile launch capability.
+    Research Experience:
+      - company: Mobility Systems Laboratory, UT Austin
+        position: Graduate Research Assistant
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - Developed hybrid physics-informed machine learning architectures for driver behavior prediction at four-way intersections.
+          - Designed interaction-aware and driver-mode-aware Intelligent Driver Models augmented with learned latent representations.
+          - Trained and evaluated models using 163 NGSIM intersection scenarios and human-driver simulator datasets.
+          - Achieved 0.623 m/s velocity RMSE over a 2-second prediction horizon.
+          - Reduced unseen-scenario acceleration prediction RMSE from 20.5 m/s² to 4.06 m/s² compared to EBM baselines.
+          - Developed MATLAB and Python pipelines for scenario extraction, feature engineering, training, and rollout analysis.
 
-- title: Publications
-  type: time_table
-  contents:
-    - title: Practical Method for High-Speed Path-Tracking Control of Vehicles with Time-Delayed Steering System Dynamics
-      institution: IEEJ Journal of Industry Applications
-      year: "2025"
-      description:
-        - "**Yu Chul Lee**, Chi-Chang Huang, Umesh Malepati, Xingyu Zhou, and Junmin Wang"
-    - title: Human Impact of Visual Detail in Vehicle Lane-Keeping System Communication
-      institution: IFAC Symposium on Intelligent Autonomous Vehicles
-      year: "2025"
-      description:
-        - "**Yu Chul Lee** and Junmin Wang"
+      - company: Mobility Systems Laboratory, UT Austin
+        position: Researcher – Explainable Driver Modeling
+        start_date: 2024-01
+        end_date: present
+        highlights:
+          - Developed interpretable driver models using SHAP-based feature selection and Explainable Boosting Machines.
+          - Engineered physically meaningful driver-behavior features from vehicle kinematics and traffic interactions.
+          - Proposed residual-learning adaptation methods for personalized driver modeling from sparse datasets.
+          - Achieved 94.4% fidelity for synthetic drivers and up to 88.5% fidelity for human-driver behavior.
+          - Preserved individual driving styles and achieved 75% driver identification accuracy on unseen data.
 
-- title: Technical Skills
-  type: nested_list
-  contents:
-    - title: Controls & Vehicle Dynamics
-      items:
-        - Model Predictive Control (MPC), Sliding Mode Control, LQR, Feedback Linearization
-    - title: Programming
-      items:
-        - MATLAB, Simulink, Python, C
-    - title: Autonomous Systems
-      items:
-        - V2X Communication (SAE J2735), CAN-FD, Driver Modeling, Trajectory Prediction
-    - title: Simulation & Deployment
-      items:
-        - dSPACE AUTERA, dSPACE ASM, RTMaps, Unreal Engine, ROS, CANalyzer, HIL, VIL
-    - title: Machine Learning & Data
-      items:
-        - Explainable Boosting Machines (EBM), SHAP, Random Forests, Clustering
+    Engineering Experience:
+      - company: EcoCAR Connected and Autonomous Vehicle Team
+        position: Team Leader
+        start_date: 2025-01
+        end_date: 2026-05
+        highlights:
+          - Led a multidisciplinary team of 8 undergraduate and graduate students developing CAV technologies on a Cadillac LYRIQ.
+          - Directed development of CACC, LKA, Automated Intersection Navigation, sensor fusion, and V2X-enabled autonomy features.
+          - Coordinated model-based development workflows using MATLAB/Simulink, RTMaps, dSPACE ASM, and dSPACE AUTERA.
 
-- title: Certifications
-  type: list
-  contents:
-    - Fundamentals of Engineering (FE Mechanical) — Passed Feb 2023
+      - company: EcoCAR
+        position: Lead Developer – Cooperative Adaptive Cruise Control (CACC)
+        start_date: 2025-01
+        end_date: 2025-05
+        highlights:
+          - Co-developed an MPC-based CACC system utilizing SAE J2735 V2V communication.
+          - Integrated V2X vehicle state information into real-time control algorithms.
+          - Implemented CAN-FD communication between dSPACE AUTERA and vehicle control systems.
+          - Successfully deployed and validated the controller on a Cadillac LYRIQ.
+          - Achieved 0.062 m steady-state spacing RMSE, 2.999 m/s³ maximum jerk, and 1.707 m/s² maximum acceleration.
+
+      - company: EcoCAR
+        position: Lead Developer – Lane Keeping Assist (LKA)
+        start_date: 2025-01
+        end_date: 2025-05
+        highlights:
+          - Guided development of a Sliding Mode Controller using LiDAR and camera perception inputs.
+          - Mentored undergraduate team members in controller design and validation.
+          - Validated controller performance through HIL and vehicle testing.
+          - Achieved 0.121 m lateral tracking error and 0.35 m/s³ lateral jerk in HIL testing.
+          - Conducted vehicle-in-the-loop testing and identified sensor latency limitations.
+
+    Selected Projects:
+      - company: The University of Texas at Austin
+        position: Project Lead – Autonomous Vehicle Path Tracking
+        start_date: 2024-01
+        end_date: 2024-12
+        highlights:
+          - Designed and tested a path-tracking controller capable of lane changes at 40 m/s with 0.1 m lateral error.
+          - Used root-locus and frequency-domain design methods to satisfy system requirements.
+          - Reduced lateral tracking RMSE by 52.98% for single lane changes and 48.61% for double lane changes.
+          - Achieved performance comparable to MPC with significantly lower computational cost.
+
+      - company: Yonsei University
+        position: Team Member – Advanced Mechatronics Competition (1st Place)
+        start_date: 2023-08
+        end_date: 2023-12
+        highlights:
+          - Designed and manufactured an autonomous mobile robot capable of target localization and pneumatic actuation.
+          - Created 12 custom SolidWorks components under strict dimensional constraints.
+          - Tested five prototypes and achieved reliable 1.5 m projectile launch capability.
+
+    Publications:
+      - title: Practical Method for High-Speed Path-Tracking Control of Vehicles with Time-Delayed Steering System Dynamics
+        authors:
+          - Yu Chul Lee
+          - Chi-Chang Huang
+          - Umesh Malepati
+          - Xingyu Zhou
+          - Junmin Wang
+        date: 2025-01
+        journal: IEEJ Journal of Industry Applications
+
+      - title: Human Impact of Visual Detail in Vehicle Lane-Keeping System Communication
+        authors:
+          - Yu Chul Lee
+          - Junmin Wang
+        date: 2025-05
+        journal: IFAC Symposium on Intelligent Autonomous Vehicles
+
+    Technologies & Skills:
+      - label: Controls & Vehicle Dynamics
+        details: Model Predictive Control (MPC), Sliding Mode Control, LQR, Feedback Linearization
+      - label: Programming
+        details: MATLAB, Simulink, Python, C
+      - label: Autonomous Systems
+        details: V2X Communication (SAE J2735), CAN-FD, Driver Modeling, Trajectory Prediction
+      - label: Simulation & Deployment
+        details: dSPACE AUTERA, dSPACE ASM, RTMaps, Unreal Engine, ROS, CANalyzer, HIL, VIL
+      - label: Machine Learning & Data Analysis
+        details: Explainable Boosting Machines (EBM), SHAP, Random Forests, Clustering
+
+    Certifications:
+      - label: Professional Certification
+        details: Fundamentals of Engineering (FE Mechanical) — Passed Feb 2023
