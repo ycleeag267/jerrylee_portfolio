@@ -7,10 +7,29 @@ importance: 1
 category: research
 ---
 
-Physical vehicles are not perfect mathematical models. Actuators have limits, and networks have latency. High-speed autonomous path-tracking often fails when control inputs are delayed by physical steer-by-wire mechanics.
+Physical vehicles are not perfect mathematical models. Actuators have limits, and networks have latency. High-speed autonomous path-tracking often fails when control inputs are delayed by physical steering mechanism.
 <div class="row mt-4 mb-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pathtracking.gif" title="Path Tracking Simulation" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid
+            loading="eager"
+            path="assets/img/system_diagram.jpg"
+            title="Control Architecture"
+            class="img-fluid rounded z-depth-1"
+        %}
+    </div>
+</div>
+<div class="caption">
+    Proposed path-tracking control architecture with steering dynamics compensation.
+</div>
+
+<div class="row mt-4 mb-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid
+            loading="eager"
+            path="assets/img/pathtracking.gif"
+            title="Path Tracking Simulation"
+            class="img-fluid rounded z-depth-1"
+        %}
     </div>
 </div>
 <div class="caption">
@@ -20,5 +39,7 @@ Physical vehicles are not perfect mathematical models. Actuators have limits, an
 I developed a practical, robust control method that actively compensates for time-delayed steering system dynamics. 
 
 By mathematically modeling the physical delay directly into the control loop, the system can anticipate the vehicle's state, allowing it to maintain dynamic stability and precision path-tracking even at high speeds.
+
+Improvements in lateral error and heading angle error were verified in HIL setup with dSPACE Scalexio and high-fidelity vehicle dynamics simulated with ASM.
 
 **Publication:** *Practical Method for High-Speed Path-Tracking Control of Vehicles with Time-Delayed Steering System Dynamics* (Journal).
