@@ -2,7 +2,7 @@
 layout: page
 title: Lane Keeping System 
 description: Lateral control logic and trajectory tracking development.
-img: assets/img/SMC Lane Keeping.gif # Suggestion: A MATLAB/Simulink simulation curve showing lane centering
+img: assets/img/SMCLaneKeeping.gif # Suggestion: A MATLAB/Simulink simulation curve showing lane centering
 importance: 3
 category: work
 ---
