@@ -2,7 +2,7 @@
 layout: page
 title: Explainable AI in Driving Models
 description: Approximating black-box models for safety-critical interpretability.
-img: assets/img/xai_preview.jpg # Suggestion: A feature importance chart or Partial Dependence Plot
+img: assets/img/EBM.jpg # Suggestion: A feature importance chart or Partial Dependence Plot
 importance: 2
 category: research
 ---
